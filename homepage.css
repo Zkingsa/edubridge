@@ -5,6 +5,7 @@
     --black: #13131a;
     --bg:#ffffff;
     --border: 1rem solid rgba(255,255,255,.3);
+}
 
 *{
     font-family: "Roboto", sans-serif;
@@ -496,5 +497,4 @@ img{
         font-size: 3rem;
     }
 
-}
 }
