@@ -5,22 +5,6 @@
     --black: #13131a;
     --bg:#ffffff;
     --border: 1rem solid rgba(255,255,255,.3);
-}
-@mixin grid($val){
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax($val, 1fr));
-    gap: 2rem;
-}
-@mixin titleText($titleSize){
-    font-size: $tileSize;
-    text-transform: capitalize;
-    color: $black;
-}
-@mixin graphText($graphSize){
-    font-size: $graphSize;
-    line-height: 2;
-    color: $black;
-}
 
 *{
     font-family: "Roboto", sans-serif;
