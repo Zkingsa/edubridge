@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+
+    <!--Font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!--Styling-->
+        <link rel="stylesheet" href="homepage.css">
+
+        <!--Swiper css link-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/service-worker.js')
+                .then(function(registration) {
+                  console.log('Service Worker registered with scope:', registration.scope);
+                }).catch(function(error) {
+                  console.log('Service Worker registration failed:', error);
+                });
+            }
+          </script>
+</head>
+<body>
+    <header class="header">
+        <!--Logo-->
+        <a href="Homepage.html" class="logo">
+            <img src="logo-no-background.png" alt="">
+        </a>
+
+        <!--Navigation bar-->
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="About.html">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#Course">Course</a>
+            <a href="index.html">Sign In</a>
+        </nav>
+        <!--Navigation bar-->
+
+        <!--Icons-->
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-signIn"></div>
+        </div>
+        <!--Icons-->
+
+        <!--Search Form-->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here....">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <!--Search Form-->
+    </header>
+
+    <!--Homepage-->
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(_93dfe619-261c-4ba4-998d-24a38eb8e596.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3> Unlock Your Potential with Online Learning!</h3>
+                        <p>Welcome to a world where knowledge knows no boundaries. Embrace the flexibility and endless opportunities that eLearning offers. Whether you are looking to acquire new skills, advance your career, or simply satisfy your curiosity, our platform is here to support your journey</p>
+                        <a href="#" class="btn">Join Now</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(_888000b5-0a96-4559-a182-cef46707a2fd.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3> Unlock Your Potential with Online Learning!</h3>
+                        <p>Welcome to a world where knowledge knows no boundaries. Embrace the flexibility and endless opportunities that eLearning offers. Whether you are looking to acquire new skills, advance your career, or simply satisfy your curiosity, our platform is here to support your journey</p>
+                        <a href="#" class="btn">Join Now</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(_e0c11089-b0a7-46fe-a676-a932e42c4c2a.jpeg) no-repeat;">
+                    <div class="content">
+                        <h3> Unlock Your Potential with Online Learning!</h3>
+                        <p>Welcome to a world where knowledge knows no boundaries. Embrace the flexibility and endless opportunities that eLearning offers. Whether you are looking to acquire new skills, advance your career, or simply satisfy your curiosity, our platform is here to support your journey</p>
+                        <a href="#" class="btn">Join Now</a>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--Homepage-->
+
+    <!--Subjects-->
+    <section class="Subjects">
+
+        <h1 class="heading">Our Popular Subjects</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="math icon no back.png" alt="">
+                <h3><a href="https://www.learnedguys.com/uploads/files/223/NEW%20MATHS%20BOOK%203.pdf">Mathematics</a></h3>
+                <p>4 Modules</p>
+            </div>
+
+            <div class="box">
+                <img src="science icon no back.png" alt="">
+                <h3><a href="https://www.siyavula.com/book-downloads/science/Gr12_PhysicalSciences_Teacher_Eng.pdf">Physical Science</a></h3>
+                <p>2 Modules</p>
+            </div>
+
+            <div class="box">
+                <img src="tech icon2.png" alt="">
+                <h3><a href="https://www.halvorsen.blog/documents/programming/software_engineering/resources/Software%20Development.pdf">Info Com Tech</a></h3>
+                <p>12 Modules</p>
+            </div>
+        </div>
+
+    </section>
+    <!--Subjects-->
+
+    <!--Courses-->
+    <section class="home-courses">
+
+        <h1 class="heading">Our popular Courses</h1>
+            <div class="swiper home-courses-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+
+                        <div class="image">
+                            <img src="web developer.png
+                            " alt="">
+                            <h3>Web development</h3>
+                        </div>
+                        <div class="content">
+                            <h3>Web development</h3>
+                            <p>Web development is the process of creating and maintaining websites and web applications that run on the internet or an intranet.</p>
+                            <a href="#" class="btn"> read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                        <div class="image">
+                            <img src="teacher2.png" alt="">
+                            <h3>Teaching</h3>
+                        </div>
+                        <div class="content">
+                            <h3>Teaching</h3>
+                            <p>Teaching is the process of imparting knowledge, skills, values, and attitudes to learners.</p>
+                            <a href="#" class="btn"> read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img src="Engi.png" alt="">
+                        <h3>Engineering</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Engineering</h3>
+                        <p>Engineering is the application of science, mathematics, and technology to solve problems and create useful products, systems, and structures.</p>
+                        <a href="#" class="btn"> read more</a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!--Courses-->
+
+    <!--Footer-->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-lightbulb"></i>eduBridge</h3>
+                <p>Embrace the future of education and start your journey with eLearning today. Your path to success is just a click away!</p>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#" class="link">Home</a>
+                <a href="About.html"class="link">About</a>
+                <a href="#contact" class="link">Contact</a>
+                <a href="#blogs" class="link">blogs</a>
+                <a href="form.html" class="link">Sign In</a>
+            </div>
+
+            <div class="box">
+                <h3>Useful links</h3>
+                <a href="" class="link">Help Center</a>
+                <a href="" class="link">Ask Question</a>
+                <a href="" class="link">Send feedback</a>
+                <a href="" class="link">private policy</a>
+                <a href="" class="link">Terms of Use</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="credit">Created by <span>TechNinjaz</span> | all rights reserved!</div>
+    </section>
+    <!--Footer-->
+    
+<!--Swiper js link-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--JS file Link-->
+<script src="homepage.js"></script>
+
+</body>
+</html>

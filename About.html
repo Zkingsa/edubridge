@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+ <!--Font Awesome Link-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!--CSS Styling link-->
+<link rel="stylesheet" href="About.css">
+
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch(function(error) {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+  </script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <section class="About" id="About">
+
+        <h1 class="heading"> <span><div class="Back"><a href="Homepage.html"><i class="fa-solid fa-arrow-left"></i></a></div> about</span> us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="_e0c11089-b0a7-46fe-a676-a932e42c4c2a.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Why Choose eLearning?</h3>
+                <p>Unlock a world of opportunities and take control of your education with our eLearning platform. Here’s what you can gain:
+                <li><var>Flexibility: Learn at your own pace, on your own schedule.</var></li>
+                        <li><var>Cost-Effective: Save on travel and accommodation costs</var></li>
+                        <li><var>Wide Range of Courses: Access a diverse array of subjects and specializations.</var></li>
+                </p>
+                <p>Embrace the future of education and start your journey with eLearning today. Your path to success is just a click away. <var>Dankie, Thank You, Ngiyabonga, Ke a leboga, Ndo livhwa, Ndza khensa</var></p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+     <!--Footer-->
+     <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-lightbulb"></i>eduBridge</h3>
+                <p>Embrace the future of education and start your journey with eLearning today. Your path to success is just a click away!</p>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#" class="link">Home</a>
+                <a href="About.html"class="link">About</a>
+                <a href="#contact" class="link">Contact</a>
+                <a href="#blogs" class="link">blogs</a>
+                <a href="form.html" class="link">Sign In</a>
+            </div>
+
+            <div class="box">
+                <h3>Useful links</h3>
+                <a href="" class="link">Help Center</a>
+                <a href="" class="link">Ask Question</a>
+                <a href="" class="link">Send feedback</a>
+                <a href="" class="link">private policy</a>
+                <a href="" class="link">Terms of Use</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="credit">Created by <span>TechNinjaz</span> | all rights reserved!</div>
+    </section>
+    <!--Footer-->
+    
+    <!--JS file Link-->
+<script src="homepage.js"></script>
+</body>
+</html>
